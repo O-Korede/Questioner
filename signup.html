@@ -3,22 +3,33 @@
     <head>
         <meta charset="utf 8">
         <title>User sign-up page</title>
-        <link rel="stylesheet" href="signupstyle.css">
+        <link rel="stylesheet" href="signUpStyle.css">
     </head>
     <body>
-        <p>Welcome to <span>Questioner</span></p>
-        <br>
-        <p id="signup">Sign up with email<p>
-        <p class="pad">Name</p>
-        <input type="text" placeholder="first name before surname" class="pc">
-        <p class="pad">Email</p>
-        <input type="email" placeholder="enter email" class="pc">
-        <p class="pad">Create password</p>
-        <p id="pw" class="pad">*Password must contain at least a number and a character (@#$%^&*)</p>
-        <input type="password" placeholder="enter password" class="pc">
-        <p class="pad">Confirm password</p>
-        <input type="password" placeholder="confirm password" class="pc">
-        <p><input type="button" value="submit" id="submit"></p>
+        <div>
+            <p>Welcome to <span>Questioner</span></p>
+            <br>
+            <p id="signup">Sign up with your email<p></p>
+            <form action="C:\Users\OPANUBI OLUWAKOREDE\Documents\VS prac\HELLOWORLD\Questioner\userProfile.html">                
+                <p class="pad">Name</p>
+                <input type="text" placeholder="John Smith" class="pc">
+                <p class="pad">Email</p>
+                <input type="email" placeholder="JohnSmith@gmail.com" class="pc">
+                <p class="pad">Location</p>
+                <select>
+                    <option value="Abuja">Abuja</option>
+                    <option value="Kano">Kano</option>
+                    <option value="Lagos" selected>Lagos</option>
+                </select>
+                <p class="pad">Create password</p>
+                <p id="password" class="pad">*Password must contain at least a number and a character (@#$%^&*)</p>
+                <input type="password" placeholder="enter password" class="pc">
+                <p class="pad">Confirm password</p>
+                <input type="password" placeholder="confirm password" class="pc">
+                <button>submit</button>
+            </form>               
+        </div>
+        
         
 
     </body>

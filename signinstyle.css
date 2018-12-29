@@ -1,6 +1,5 @@
 html{
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
     font-size: 62.5%;
 }
 body {
@@ -11,33 +10,50 @@ body {
     box-sizing: inherit;
 }
 p {
-    color: white;
+    color: #ffffff;
     font-size: 3rem;
     text-align: center; 
     margin-top: 10%;
 }
 span {
-    color: dodgerblue;
+    color: #1e90ff;
     font-size: 3.5rem;
     font-weight: 600;
 }
 input{
+    font-size: 1.6rem;
     display: block;
-    width: 100%;
+    width: 98%;
     margin-top: 3%;
-    padding: 2% 0;
-    border: 0;
+    padding: 2.5rem 0rem 2.5rem 1rem;
+    border: 0.1rem #1e90ff solid;
+    border-radius: 0.3rem;
 }
 button{
     padding: .5rem 2rem;
-    background-color: dodgerblue;
+    background-color: #1e90ff;
     border: none;
+    border-radius: 0.3rem;
     color: #ffffff;
-    font-size: 1.5rem;  
+    font-size: 2rem;
     float: right;  
     margin-top: 2%;
+}
+a{
+    color: #ffffff;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    
+    text-decoration: none;
 }
 .form{
     width: 42%;
     margin-left: 30%;
+}
+#a1{
+    margin-top: 4%;
+}
+#a2{
+    margin-top: 0;
 }
