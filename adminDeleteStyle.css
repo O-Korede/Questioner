@@ -50,18 +50,36 @@ h1{
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
 .box{
     width: 15em;
-    height: 15em;
-    background: url('images/cover-img.jpg');
+    height: 15em;    
     margin-bottom: 2em;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
+#SDG{
+    background: url('images/SDG.png');
+}
+#ferrari{
+    background: url('images/ferrari.jpg');
+}
+#green{
+    background: url('images/green.jpg');
+}
+#go{
+    background: url('images/go.jpg');
+}
+#FED{
+    background: url('images/FED.png');
+}
+#classical{
+    background: url('images/classical.jpg');
+}
+#bloggers{
+    background: url('images/bloggers.png');
+}
 .text{
     width: 100%;
     height: 3em;
@@ -71,22 +89,18 @@ h1{
 
 .delete-btn{
     display: flex;
-    justify-content: flex-end;
-}
-.btn{
+    justify-content: center;
     color: white;
     padding: 6px 12px;
     font-size: 14px;
     border-radius: 4px;
     text-decoration: none;
-}
-
-.btn-danger{
     background: #dc3545;
 }
 
 footer{
     height: 20vh;
+    width: 100%;
     background: rgba(0, 0, 0, 0.85);
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
