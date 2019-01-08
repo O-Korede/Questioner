@@ -44,8 +44,12 @@ a{
     font-size: 2rem;
     display: block;
     text-align: center;
-    
     text-decoration: none;
+    margin-left: 42%;
+    margin-right: 42%;
+}
+a:hover {
+    color: pink;
 }
 .form{
     width: 42%;
