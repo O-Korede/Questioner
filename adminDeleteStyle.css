@@ -59,6 +59,22 @@ h1{
     flex-direction: column;
     justify-content: space-between;
 }
+.text{
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+.delete-btn{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    background: #dc3545;
+}
 #SDG{
     background: url('images/SDG.png');
 }
@@ -80,24 +96,15 @@ h1{
 #bloggers{
     background: url('images/bloggers.png');
 }
-.text{
-    width: 100%;
-    height: 3em;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.5);
+#jet{
+    background: url('images/jet.jpg');
 }
-
-.delete-btn{
-    display: flex;
-    justify-content: center;
-    color: white;
-    padding: 6px 12px;
-    font-size: 14px;
-    border-radius: 4px;
-    text-decoration: none;
-    background: #dc3545;
+#bible{
+    background: url('images/bible.jpg');
 }
-
+#diet{
+    background: url('images/diet.jpg');
+}
 footer{
     height: 20vh;
     width: 100%;

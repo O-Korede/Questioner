@@ -66,7 +66,7 @@ img {
 #location{
     color: #ffc0cb;
     font-size: 2rem;
-    margin-left: 5%;
+    text-align: center;
 }
 #location span{
     color: #ffffff;
