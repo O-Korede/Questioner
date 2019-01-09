@@ -44,24 +44,38 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 10%;
 }
+/* .form-control{
+    width: 80%;
+    height: 5em;
+    font-size: 14px;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.75);
+} */
+
 #aq{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.85);
     position: fixed;
-    bottom: 0;
-    width: 90%;
+    top: 60%;
+    bottom: 23%;
+    width: 85%;
     height: 6rem;
-    font-size: 14px;
-    color: #555;
+    font-size: 20px;
+    color: #1e90ff;
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 6px 12px;
 }
 #aq input{
-    width: 90%;
+    width: 95%;
+    height: 5em;
     /* display: block;
     margin-left: auto;
     margin-right: auto; */
